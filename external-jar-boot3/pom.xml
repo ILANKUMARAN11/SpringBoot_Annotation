@@ -12,7 +12,7 @@
 	<artifactId>external-jar-boot3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>external-jar-boot3</name>
-	<description>External Jar</description>
+	<description>External Jar Spring boot version 3</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
