@@ -21,3 +21,8 @@
 | @ComponentScan | [README.md](./@EnableConfigurationProperties/README.md)     | |                                                                                                                                                                                                                   |
 | @PropertyResources | [README.md](./@EnableConfigurationProperties/README.md)     | ||
 | @PropertyResource | [README.md](./@EnableConfigurationProperties/README.md)     | | https://www.baeldung.com/properties-with-spring <br><br> https://mkyong.com/spring/spring-propertysources-example/ <br><br>	https://www.javaguides.net/2018/09/spring-propertysource-annotation-with-example.html |
+
+
+https://github.com/spring-projects/spring-boot/blob/2.6.x/spring-boot-project/spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories
+
+https://github.com/spring-projects/spring-boot/blob/2.7.x/spring-boot-project/spring-boot-autoconfigure/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
