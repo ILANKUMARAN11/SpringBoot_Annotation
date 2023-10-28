@@ -1,17 +1,20 @@
-# SpringBoot_Annotation
-
-
-@AutoConfiguration
-@AutoConfigurationPackage
-@AutoConfigurationAfter
-@AutoConfigurationBefore
-@AutoConfigureOrder
+# Spring-Boot Annotation
 
 @ConfigurationPropertiesBinding
 @EnableAutoConfiguration
 @ImportAutoConfiguration
 @NestedConfigurationProperty
 @DeprecatedConfigurationProperty
+
+
+| Annotation                                                         | README.md | Reference                                  |
+|--------------------------------------------------------------------|--------|--------------------------------------------|
+| @AutoConfiguration | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
+| @AutoConfigurationPackage | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
+| @AutoConfigurationAfter | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
+| @AutoConfigurationBefore | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
+| @AutoConfigureOrder | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
+
 
 | Annotation                                                         | README.md | Reference                                  |
 |--------------------------------------------------------------------|--------|--------------------------------------------|
