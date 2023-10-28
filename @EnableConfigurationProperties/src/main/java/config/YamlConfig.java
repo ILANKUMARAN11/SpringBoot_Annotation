@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.HashMap;
 import java.util.Map;
 
-@Configuration
+//@Configuration
 @ConfigurationProperties(prefix = "test")
 @Data
 public class YamlConfig {
