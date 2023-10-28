@@ -10,7 +10,7 @@ import java.util.Map;
 public class TestService {
 
     @Autowired
-    TestComponent testComponent;
+    private TestComponent testComponent;
     public Map<String, String> helloWorldService(){
         return testComponent.testComponent();
     }

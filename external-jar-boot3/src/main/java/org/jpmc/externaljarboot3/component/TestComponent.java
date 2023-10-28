@@ -10,7 +10,7 @@ import java.util.Map;
 public class TestComponent {
 
     @Autowired
-    TestPropertyResource testPropertyResource;
+    private TestPropertyResource testPropertyResource;
 
     public Map<String, String> testComponent(){
         return testPropertyResource.getReplace();
