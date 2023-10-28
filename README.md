@@ -14,7 +14,7 @@
 @NestedConfigurationProperty
 @PropertyResources
 @PropertyResource
-
+@DeprecatedConfigurationProperty
 
 | Annotation                                                         | README.md | Reference                                  |
 |--------------------------------------------------------------------|--------|--------------------------------------------|
