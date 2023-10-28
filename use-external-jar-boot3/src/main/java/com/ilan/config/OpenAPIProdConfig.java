@@ -57,11 +57,13 @@ public class OpenAPIProdConfig {
     @Bean
     OpenApiCustomizer publicApiCustomizer(){
         final String securitySchemeName = "bearerAuth";
+        final String authSchemeName = "Authorization";
         return openApi -> openApi.addSecurityItem(new SecurityRequirement()
-                        .addList(securitySchemeName))
+                        .addList(securitySchemeName)
+                        .addList(authSchemeName))
                 .components(new Components()
                         .addSecuritySchemes(securitySchemeName, new SecurityScheme()
-                                .name(securitySchemeName)
+                                //.name(securitySchemeName)
                                 .in(SecurityScheme.In.HEADER)
                                 .type(SecurityScheme.Type.HTTP)
                                 .scheme("bearer")
