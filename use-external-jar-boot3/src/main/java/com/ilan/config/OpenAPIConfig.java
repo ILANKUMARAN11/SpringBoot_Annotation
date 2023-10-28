@@ -22,8 +22,8 @@ public class OpenAPIConfig {
                 .description("Localhost Server URL");
 
         Contact contact = new Contact()
-                .email("niket.agrawal90@gmail.com")
-                .name("Niket Agrawal");
+                .email("ilankumaran.i@gmail.com")
+                .name("Ilankumaran Ilangovan");
 
         Info info = new Info()
                 .contact(contact)

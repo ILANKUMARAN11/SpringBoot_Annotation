@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Configuration
 @ConfigurationProperties(prefix = "test", ignoreUnknownFields = true)
-@PropertySource("classpath:Test.properties")
+@PropertySource(value = "classpath:Test.yml", factory = YamlPropertySourceFactory.class)
 @Data
 public class TestPropertyResource {
     Map<String, String> replace = new HashMap<>();
