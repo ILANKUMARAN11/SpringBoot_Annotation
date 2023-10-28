@@ -1,4 +1,4 @@
-package org.jpmc.externaljarboot3.config;
+package net.tcs.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

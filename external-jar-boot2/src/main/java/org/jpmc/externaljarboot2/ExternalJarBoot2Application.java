@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "org.jpmc")
+@ComponentScan(basePackages = {"org.jpmc", "net.tcs"})
 public class ExternalJarBoot2Application {
 
 }

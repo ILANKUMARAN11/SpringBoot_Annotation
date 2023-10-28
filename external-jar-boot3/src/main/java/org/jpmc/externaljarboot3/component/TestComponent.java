@@ -1,6 +1,6 @@
 package org.jpmc.externaljarboot3.component;
 
-import org.jpmc.externaljarboot3.config.TestPropertyResource;
+import net.tcs.config.TestPropertyResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

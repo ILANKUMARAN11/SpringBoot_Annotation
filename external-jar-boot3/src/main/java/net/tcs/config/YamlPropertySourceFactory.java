@@ -1,4 +1,4 @@
-package org.jpmc.externaljarboot3.config;
+package net.tcs.config;
 
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.core.env.PropertiesPropertySource;
