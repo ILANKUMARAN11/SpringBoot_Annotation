@@ -27,7 +27,15 @@ public class ApplicationConfig {
 ```
 
 # OR
-In this case @ConfigurationPropertiesScan can help to scan the current package and create the bean for annotated classes @ConfigurationProperties
+
+``` text
+1) Annotation @ConfigurationPropertiesScan can help to scan the current package and create the bean for annotated classes @ConfigurationProperties
+
+2) You can also scan external package
+   @ConfigurationPropertiesScan(basePackages="org.my.pkg")
+```
+
+
 ```java
 @ConfigurationProperties(prefix = "some-prefix")
 @ConfigurationPropertiesScan
