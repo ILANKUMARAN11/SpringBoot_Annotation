@@ -1,4 +1,4 @@
-package com.ilan.externaljarboot3;
+package org.jpmc.externaljarboot3;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 
