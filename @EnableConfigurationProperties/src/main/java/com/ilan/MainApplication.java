@@ -17,7 +17,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 public class MainApplication implements CommandLineRunner {
 
     @Autowired
-    YamlConfig yamlConfig;
+    private YamlConfig yamlConfig;
 
     public static void main(String[] args) {
         SpringApplication.run(MainApplication.class, args);
