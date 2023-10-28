@@ -7,13 +7,13 @@
 @DeprecatedConfigurationProperty
 
 
-| Annotation                                                         | README.md | Reference                                  |
-|--------------------------------------------------------------------|--------|--------------------------------------------|
-| @AutoConfiguration | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
-| @AutoConfigurationPackage | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
-| @AutoConfigurationAfter | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
-| @AutoConfigurationBefore | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
-| @AutoConfigureOrder | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree** |
+| Annotation                                                         | README.md | Reference                                                                                                                         |
+|--------------------------------------------------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+| @AutoConfiguration | [README.md](./@EnableConfigurationProperties/README.md)     | https://stackoverflow.com/questions/75044304/custom-spring-boot-3-starter-does-not-create-configurationproperties-beans <br> ilan |
+| @AutoConfigurationPackage | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree**                                                                                        |
+| @AutoConfigurationAfter | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree**                                                                                        |
+| @AutoConfigurationBefore | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree**                                                                                        |
+| @AutoConfigureOrder | [README.md](./@EnableConfigurationProperties/README.md)     | automatic replacement **blob** by **tree**                                                                                        |
 
 
 | Annotation                                                         | README.md | Reference                                  |
