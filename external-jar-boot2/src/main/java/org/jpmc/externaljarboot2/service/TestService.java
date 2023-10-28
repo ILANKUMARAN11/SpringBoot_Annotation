@@ -1,6 +1,6 @@
 package org.jpmc.externaljarboot2.service;
 
-import org.jpmc.externaljarboot3.component.TestComponent;
+import org.jpmc.externaljarboot2.component.TestComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,0 +1,3 @@
+test:
+  replace:
+    '[{"name":"John", "age":30, "car":null}]': '{"name":"Ilan", "age":33, "car":"BMW"}'

@@ -1,6 +1,6 @@
 package org.jpmc.externaljarboot2.controller;
 
-import org.jpmc.externaljarboot3.service.TestService;
+import org.jpmc.externaljarboot2.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
