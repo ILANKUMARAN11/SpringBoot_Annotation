@@ -1,1 +1,4 @@
 org.jpmc.externaljarboot3.ExternalJarBoot3Application
+org.jpmc.externaljarboot3.BeanA_AutoConfiguration
+org.jpmc.externaljarboot3.BeanB_AutoConfiguration
+org.jpmc.externaljarboot3.AA_AutoConfiguration
